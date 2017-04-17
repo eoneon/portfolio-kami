@@ -2,7 +2,7 @@
 layout: post
 title: Blocipedia
 thumbnail-path: "img/blocipedia.png"
-short-description: Build a production quality SaaS app that allows users to create their own wikis.
+short-description: Blocipedia is an app that allows users to create and collaborate on wikis.
 
 ---
 
