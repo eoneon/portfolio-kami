@@ -1,13 +1,13 @@
 ---
 layout: post
 title: NotaryLog
-thumbnail-path: "img/blocitoff.png"
+thumbnail-path: "img/notarylog.png"
 short-description: NotaryLog is a tool for notaries to simplify invoicing, accounting, and tracking of their jobs as independent contractors.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocitoff.png)
+![]({{ site.baseurl }}/img/notarylog.png)
 
 ## Summary
 ###### A Notary's Function
@@ -82,4 +82,4 @@ This disconnect tested my ability to represent elements of a notary's job sequen
 
 It was also tricky because our notary had been in the business for over a decade and so she had internalized all the minutia of the job. We had to gradually unpack these details before mapping them to app features. This wasn't just difficult for myself as a developer, the notary was also put in a position where she had to stretch and scrutinize her workflow.
 
-I didn't get anywhere near finishing all the features I initially envisioned, but I learned some valuable lessons. For one, build solutions only after extensively researching the dimensions of the problem. False starts are motivation killers. Next, build the smallest valuable feature before scaling up. Being overly ambitious leads to false starts. Finally, don't be paralyzed by the idea that there is a single best way to do something. Every time I revisit this app's code, I see alternative approaches to a given problem. 
+I didn't get anywhere near finishing all the features I initially envisioned, but I learned some valuable lessons. For one, build solutions only after extensively researching the dimensions of the problem. False starts are motivation killers. Next, build the smallest valuable feature before scaling up. Being overly ambitious leads to false starts. Finally, don't be paralyzed by the idea that there is a single best way to do something. Every time I revisit this app's code, I see alternative approaches to a given problem.

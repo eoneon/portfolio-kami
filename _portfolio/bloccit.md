@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Bloccit
-thumbnail-path: "img/blocflix.png"
+thumbnail-path: "img/bloccit.png"
 short-description: Bloccit is a Reddit replica for creating categorized posts that may be up-voted, down-voted, commented on and more.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/bloccit.png)
 
 ## Explanation
 
