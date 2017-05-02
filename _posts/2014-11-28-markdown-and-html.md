@@ -1,51 +1,16 @@
 ---
 layout: post
-title: Markdown and HTML
+title: Transition from Assigned Apps to Capstone
 ---
 
-Jeykll supports the use of [Markdown](http://daringfireball.net/projects/markdown/syntax) with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.
+The first apps I built were assigned projects meant to teach basic concepts through the process of developing replicas of such apps as Reddit and Wikipedia. With each project, the features I'd implement grew progressively complicated, while the curriculum-based instruction became more open-ended. The process was challenging, but my capstone was by far the most difficult.
 
-Tables have also been extended from Markdown:
+#### Articulate the Problem
+One thing I took for granted is my curriculum-based projects started with a clearly defined problem and solution. But for my capstone, I only had a general idea of the problem I wanted to solve; my girlfriend is a notary who specializes in real estate transactions and I wanted to build a tool for tracking and invoicing her jobs. It sounded simple enough, but I underestimated the process of both interpreting my girlfriend's professional needs, and then translating them into a series of clearly defined problems.
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+Part of the problem stemmed from the idiosyncrasies of a notary's workflow. To flesh out the details I had to conduct ongoing interviews with my girlfriend. These details were not always forthcoming because she had been a notary for years and had long since internalized many of the conditions that affected her workflow. I initially thought it would only take a couple of informal conversations but the process wound up being an ongoing venture, which forced me to continually update my definition of the problem.
 
-Here's an example of an image, which is included using Markdown:
+#### Deciding on a Solution
+With only a handful of projects under my belt, I kept defaulting to the assumption that there was a single best solution for any given problem. I learned that once you scale up from a simple app consisting of only few resources, the options for approaching a problem rapidly increases. There wasn't always a clear reason for solving a problem using STI, or a single polymorphic resource, or to use separate resources altogether. I suppose the takeaway was when in doubt, use a solution that you're comfortable with and matches the way you think about the problem.
 
-![Geometric pattern with fading gradient]({{ site.baseurl }}/img/blocflix.png)
-
-Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Pygments by default.
-
-{% highlight js %}
-// count to ten
-for (var i = 1; i <= 10; i++) {
-    console.log(i);
-}
-{% endhighlight %}
-
-{% highlight ruby %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-{% endhighlight %}
-
-{% highlight js %}
-// count to twenty
-var j = 0;
-while (j < 20) {
-    j++;
-    console.log(j);
-}
-{% endhighlight %}
-
-Type Theme uses KaTeX to display maths. Equations such as $$S_n = a \times \frac{1-r^n}{1-r}$$ can be displayed inline.
-
-Alternatively, they can be shown on a new line:
-
-$$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$
+I also thought I had to have every detail of the solution committed to paper before writing any code. But between the ongoing process of redefining the problem and the range of potential solutions, my mentor encouraged me not to become paralyzed by the uncertainty of implementation. Often just writing code to build some feature would illuminate the next step. If I ran into problems, I could always refactor.
